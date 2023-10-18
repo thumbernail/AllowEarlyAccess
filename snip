@@ -1,0 +1,26 @@
+# Main.gd
+extends Control
+
+class MyClass:
+	extends Dataclass
+	func _init().("MyClass"): pass
+
+	# Compulsory
+	var some_int: int
+	var some_array: Array
+
+	# Optional
+	var optional_dict = null
+
+
+func _ready():
+	# Better printing of objects
+	var obj = MyClass.new()
+	obj.optional_dict = {foo = "bar"}
+	print(obj)
+
+	# Create object from Dictionary
+	print(MyClass.new().from_dict({some_int = 123456789}))
+
+	# Serialize to Dictionary
+	print(MyClass.new().from_dict({some_array = [1,2,3,4, 5]}).to_dict())
