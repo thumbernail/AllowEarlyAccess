@@ -1,0 +1,1796 @@
+{
+	"save_version": "1",
+	"font_size": 12,
+	"font_size_ui": 12,
+	"tabs": {
+		"CHANGES.md": {
+			"hscroll": 0,
+			"vscroll": 0,
+			"cursor": [
+				0,
+				0
+			]
+		},
+		"README.md": {
+			"hscroll": 0,
+			"vscroll": 0,
+			"cursor": [
+				0,
+				0
+			]
+		}
+	},
+	"selected": "res://README.md",
+	"word_wrap": false,
+	"ignore_head_numbers": true,
+	"show_tab_color": true,
+	"show": {
+		"dir": {
+			"empty": true,
+			"hidden": true,
+			"gdignore": true,
+			"addons": true,
+			"git": false,
+			"import": false,
+			"trash": false
+		},
+		"file": {
+			"hidden": false,
+			"extensionless": false
+		}
+	},
+	"tags": {
+
+	},
+	"tags_enabled": [
+
+	],
+	"exts_enabled": {
+		"txt": true,
+		"md": true,
+		"json": true,
+		"csv": true,
+		"cfg": true,
+		"ini": true,
+		"yaml": true,
+		"rpy": true,
+		"gd": false,
+		"tres": false,
+		"tscn": false,
+		"import": false,
+		"gdignore": false,
+		"gitignore": false
+	},
+	"shortcuts": {
+
+	},
+	"file_list": {
+		"": {
+			"file_path": "res://",
+			"all": {
+				"addons": {
+					"file_path": "res://addons",
+					"all": {
+						"dataclasses-godot": {
+							"file_path": "res://addons/dataclasses-godot",
+							"all": {
+								"LICENSE.md": "res://addons/dataclasses-godot/LICENSE.md",
+								"plugin.cfg": "res://addons/dataclasses-godot/plugin.cfg",
+								"README.md": "res://addons/dataclasses-godot/README.md"
+							},
+							"files": [
+								"res://addons/dataclasses-godot/plugin.cfg",
+								"res://addons/dataclasses-godot/LICENSE.md",
+								"res://addons/dataclasses-godot/README.md"
+							],
+							"dirs": [
+
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						},
+						"DragDrop3D": {
+							"file_path": "res://addons/DragDrop3D",
+							"all": {
+								"plugin.cfg": "res://addons/DragDrop3D/plugin.cfg"
+							},
+							"files": [
+								"res://addons/DragDrop3D/plugin.cfg"
+							],
+							"dirs": [
+
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						},
+						"draw3d": {
+							"file_path": "res://addons/draw3d",
+							"all": {
+								"plugin.cfg": "res://addons/draw3d/plugin.cfg"
+							},
+							"files": [
+								"res://addons/draw3d/plugin.cfg"
+							],
+							"dirs": [
+
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						},
+						"draw_anywhere": {
+							"file_path": "res://addons/draw_anywhere",
+							"all": {
+								"assets": {
+									"file_path": "res://addons/draw_anywhere/assets",
+									"all": {
+										"icons": {
+											"file_path": "res://addons/draw_anywhere/assets/icons",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"icons"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"LICENSE.md": "res://addons/draw_anywhere/LICENSE.md",
+								"plugin.cfg": "res://addons/draw_anywhere/plugin.cfg",
+								"README.md": "res://addons/draw_anywhere/README.md",
+								"scenes": {
+									"file_path": "res://addons/draw_anywhere/scenes",
+									"all": {
+										"toolbar_button": {
+											"file_path": "res://addons/draw_anywhere/scenes/toolbar_button",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"toolbar_button"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								}
+							},
+							"files": [
+								"res://addons/draw_anywhere/plugin.cfg",
+								"res://addons/draw_anywhere/LICENSE.md",
+								"res://addons/draw_anywhere/README.md"
+							],
+							"dirs": [
+								"assets",
+								"scenes"
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						},
+						"text_editor": {
+							"file_path": "res://addons/text_editor",
+							"all": {
+								"ext": {
+									"file_path": "res://addons/text_editor/ext",
+									"all": {
+
+									},
+									"files": [
+
+									],
+									"dirs": [
+
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"fonts": {
+									"file_path": "res://addons/text_editor/fonts",
+									"all": {
+
+									},
+									"files": [
+
+									],
+									"dirs": [
+
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"icons": {
+									"file_path": "res://addons/text_editor/icons",
+									"all": {
+
+									},
+									"files": [
+
+									],
+									"dirs": [
+
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"plugin.cfg": "res://addons/text_editor/plugin.cfg"
+							},
+							"files": [
+								"res://addons/text_editor/plugin.cfg"
+							],
+							"dirs": [
+								"ext",
+								"fonts",
+								"icons"
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						}
+					},
+					"files": [
+
+					],
+					"dirs": [
+						"DragDrop3D",
+						"dataclasses-godot",
+						"draw3d",
+						"draw_anywhere",
+						"text_editor"
+					],
+					"show": true,
+					"open": true,
+					"tint": "1,1,1,1"
+				},
+				"android": {
+					"file_path": "res://android",
+					"all": {
+						"build": {
+							"file_path": "res://android/build",
+							"all": {
+								"assetPacks": {
+									"file_path": "res://android/build/assetPacks",
+									"all": {
+										"installTime": {
+											"file_path": "res://android/build/assetPacks/installTime",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"installTime"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"gradle": {
+									"file_path": "res://android/build/gradle",
+									"all": {
+										"wrapper": {
+											"file_path": "res://android/build/gradle/wrapper",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"wrapper"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"libs": {
+									"file_path": "res://android/build/libs",
+									"all": {
+										"debug": {
+											"file_path": "res://android/build/libs/debug",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"release": {
+											"file_path": "res://android/build/libs/release",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"debug",
+										"release"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"res": {
+									"file_path": "res://android/build/res",
+									"all": {
+										"drawable": {
+											"file_path": "res://android/build/res/drawable",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"drawable-nodpi": {
+											"file_path": "res://android/build/res/drawable-nodpi",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values": {
+											"file_path": "res://android/build/res/values",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ar": {
+											"file_path": "res://android/build/res/values-ar",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-bg": {
+											"file_path": "res://android/build/res/values-bg",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ca": {
+											"file_path": "res://android/build/res/values-ca",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-cs": {
+											"file_path": "res://android/build/res/values-cs",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-da": {
+											"file_path": "res://android/build/res/values-da",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-de": {
+											"file_path": "res://android/build/res/values-de",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-el": {
+											"file_path": "res://android/build/res/values-el",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-en": {
+											"file_path": "res://android/build/res/values-en",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-es": {
+											"file_path": "res://android/build/res/values-es",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-es-rES": {
+											"file_path": "res://android/build/res/values-es-rES",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-fa": {
+											"file_path": "res://android/build/res/values-fa",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-fi": {
+											"file_path": "res://android/build/res/values-fi",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-fr": {
+											"file_path": "res://android/build/res/values-fr",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-hi": {
+											"file_path": "res://android/build/res/values-hi",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-hr": {
+											"file_path": "res://android/build/res/values-hr",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": false,
+											"tint": "1,1,1,1"
+										},
+										"values-hu": {
+											"file_path": "res://android/build/res/values-hu",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-in": {
+											"file_path": "res://android/build/res/values-in",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-it": {
+											"file_path": "res://android/build/res/values-it",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-iw": {
+											"file_path": "res://android/build/res/values-iw",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ja": {
+											"file_path": "res://android/build/res/values-ja",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ko": {
+											"file_path": "res://android/build/res/values-ko",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-lt": {
+											"file_path": "res://android/build/res/values-lt",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-lv": {
+											"file_path": "res://android/build/res/values-lv",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-nb": {
+											"file_path": "res://android/build/res/values-nb",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-nl": {
+											"file_path": "res://android/build/res/values-nl",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-pl": {
+											"file_path": "res://android/build/res/values-pl",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-pt": {
+											"file_path": "res://android/build/res/values-pt",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ro": {
+											"file_path": "res://android/build/res/values-ro",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-ru": {
+											"file_path": "res://android/build/res/values-ru",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-sk": {
+											"file_path": "res://android/build/res/values-sk",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-sl": {
+											"file_path": "res://android/build/res/values-sl",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-sr": {
+											"file_path": "res://android/build/res/values-sr",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-sv": {
+											"file_path": "res://android/build/res/values-sv",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-th": {
+											"file_path": "res://android/build/res/values-th",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-tl": {
+											"file_path": "res://android/build/res/values-tl",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-tr": {
+											"file_path": "res://android/build/res/values-tr",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-uk": {
+											"file_path": "res://android/build/res/values-uk",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-vi": {
+											"file_path": "res://android/build/res/values-vi",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-zh": {
+											"file_path": "res://android/build/res/values-zh",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-zh-rHK": {
+											"file_path": "res://android/build/res/values-zh-rHK",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										},
+										"values-zh-rTW": {
+											"file_path": "res://android/build/res/values-zh-rTW",
+											"all": {
+
+											},
+											"files": [
+
+											],
+											"dirs": [
+
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"drawable",
+										"drawable-nodpi",
+										"values",
+										"values-ar",
+										"values-bg",
+										"values-ca",
+										"values-cs",
+										"values-da",
+										"values-de",
+										"values-el",
+										"values-en",
+										"values-es",
+										"values-es-rES",
+										"values-fa",
+										"values-fi",
+										"values-fr",
+										"values-hi",
+										"values-hr",
+										"values-hu",
+										"values-in",
+										"values-it",
+										"values-iw",
+										"values-ja",
+										"values-ko",
+										"values-lt",
+										"values-lv",
+										"values-nb",
+										"values-nl",
+										"values-pl",
+										"values-pt",
+										"values-ro",
+										"values-ru",
+										"values-sk",
+										"values-sl",
+										"values-sr",
+										"values-sv",
+										"values-th",
+										"values-tl",
+										"values-tr",
+										"values-uk",
+										"values-vi",
+										"values-zh",
+										"values-zh-rHK",
+										"values-zh-rTW"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								},
+								"src": {
+									"file_path": "res://android/build/src",
+									"all": {
+										"com": {
+											"file_path": "res://android/build/src/com",
+											"all": {
+												"godot": {
+													"file_path": "res://android/build/src/com/godot",
+													"all": {
+														"game": {
+															"file_path": "res://android/build/src/com/godot/game",
+															"all": {
+
+															},
+															"files": [
+
+															],
+															"dirs": [
+
+															],
+															"show": true,
+															"open": true,
+															"tint": "1,1,1,1"
+														}
+													},
+													"files": [
+
+													],
+													"dirs": [
+														"game"
+													],
+													"show": true,
+													"open": true,
+													"tint": "1,1,1,1"
+												}
+											},
+											"files": [
+
+											],
+											"dirs": [
+												"godot"
+											],
+											"show": true,
+											"open": true,
+											"tint": "1,1,1,1"
+										}
+									},
+									"files": [
+
+									],
+									"dirs": [
+										"com"
+									],
+									"show": true,
+									"open": true,
+									"tint": "1,1,1,1"
+								}
+							},
+							"files": [
+
+							],
+							"dirs": [
+								"assetPacks",
+								"gradle",
+								"libs",
+								"res",
+								"src"
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						},
+						"plugins": {
+							"file_path": "res://android/plugins",
+							"all": {
+
+							},
+							"files": [
+
+							],
+							"dirs": [
+
+							],
+							"show": true,
+							"open": true,
+							"tint": "1,1,1,1"
+						}
+					},
+					"files": [
+
+					],
+					"dirs": [
+						"build",
+						"plugins"
+					],
+					"show": true,
+					"open": false,
+					"tint": "1,1,1,1"
+				},
+				"CHANGES.md": "res://CHANGES.md",
+				"export_presets.cfg": "res://export_presets.cfg",
+				"images": {
+					"file_path": "res://images",
+					"all": {
+
+					},
+					"files": [
+
+					],
+					"dirs": [
+
+					],
+					"show": true,
+					"open": true,
+					"tint": "1,1,1,1"
+				},
+				"README": {
+					"file_path": "res://README",
+					"all": {
+
+					},
+					"files": [
+
+					],
+					"dirs": [
+
+					],
+					"show": true,
+					"open": true,
+					"tint": "1,1,1,1"
+				},
+				"README.md": "res://README.md"
+			},
+			"files": [
+				"res://export_presets.cfg",
+				"res://CHANGES.md",
+				"res://README.md"
+			],
+			"dirs": [
+				"README",
+				"addons",
+				"android",
+				"images"
+			],
+			"show": true,
+			"open": true,
+			"tint": "1,1,1,1"
+		}
+	},
+	"file_data": {
+		"res://README.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "Godot RTS 3D Camera",
+					"tags": [
+
+					]
+				},
+				"19": {
+					"deep": 1,
+					"name": "Installation",
+					"tags": [
+
+					]
+				},
+				"25": {
+					"deep": 1,
+					"name": "Usage",
+					"tags": [
+
+					]
+				},
+				"28": {
+					"deep": 2,
+					"name": "On desktop:",
+					"tags": [
+
+					]
+				},
+				"33": {
+					"deep": 2,
+					"name": "On mobile:",
+					"tags": [
+
+					]
+				},
+				"39": {
+					"deep": 2,
+					"name": "Change action toggle key",
+					"tags": [
+
+					]
+				},
+				"43": {
+					"deep": 1,
+					"name": "License",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://export_presets.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "preset.0",
+					"tags": [
+
+					]
+				},
+				"13": {
+					"deep": 0,
+					"name": "preset.0.options",
+					"tags": [
+
+					]
+				},
+				"67": {
+					"deep": 0,
+					"name": "preset.1",
+					"tags": [
+
+					]
+				},
+				"80": {
+					"deep": 0,
+					"name": "preset.1.options",
+					"tags": [
+
+					]
+				},
+				"110": {
+					"deep": 0,
+					"name": "preset.2",
+					"tags": [
+
+					]
+				},
+				"123": {
+					"deep": 0,
+					"name": "preset.2.options",
+					"tags": [
+
+					]
+				},
+				"135": {
+					"deep": 0,
+					"name": "preset.3",
+					"tags": [
+
+					]
+				},
+				"148": {
+					"deep": 0,
+					"name": "preset.3.options",
+					"tags": [
+
+					]
+				},
+				"209": {
+					"deep": 0,
+					"name": "preset.4",
+					"tags": [
+
+					]
+				},
+				"222": {
+					"deep": 0,
+					"name": "preset.4.options",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://CHANGES.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "1.12",
+					"tags": [
+
+					]
+				},
+				"9": {
+					"deep": 0,
+					"name": "1.11",
+					"tags": [
+
+					]
+				},
+				"25": {
+					"deep": 0,
+					"name": "1.10",
+					"tags": [
+
+					]
+				},
+				"37": {
+					"deep": 0,
+					"name": "1.9",
+					"tags": [
+
+					]
+				},
+				"50": {
+					"deep": 0,
+					"name": "1.8",
+					"tags": [
+
+					]
+				},
+				"60": {
+					"deep": 0,
+					"name": "1.7",
+					"tags": [
+
+					]
+				},
+				"90": {
+					"deep": 0,
+					"name": "1.6",
+					"tags": [
+
+					]
+				},
+				"104": {
+					"deep": 0,
+					"name": "1.5",
+					"tags": [
+
+					]
+				},
+				"116": {
+					"deep": 0,
+					"name": "1.4",
+					"tags": [
+
+					]
+				},
+				"125": {
+					"deep": 0,
+					"name": "1.3",
+					"tags": [
+
+					]
+				},
+				"129": {
+					"deep": 0,
+					"name": "1.2",
+					"tags": [
+
+					]
+				},
+				"141": {
+					"deep": 0,
+					"name": "1.1",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/DragDrop3D/plugin.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "plugin",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/dataclasses-godot/plugin.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "plugin",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/dataclasses-godot/LICENSE.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/dataclasses-godot/README.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"2": {
+					"deep": 5,
+					"name": "(Get it from Godot Asset Library - [Dataclasses on AssetLibrary](https://godotengine.org/asset-library/asset/1381))",
+					"tags": [
+
+					]
+				},
+				"5": {
+					"deep": 2,
+					"name": "Easy to use dataclasses with helpful features",
+					"tags": [
+
+					]
+				},
+				"6": {
+					"deep": 3,
+					"name": "(similar to Python's dataclasses)",
+					"tags": [
+
+					]
+				},
+				"75": {
+					"deep": 1,
+					"name": "Class: Dataclass",
+					"tags": [
+
+					]
+				},
+				"77": {
+					"deep": 2,
+					"name": "Properties",
+					"tags": [
+
+					]
+				},
+				"83": {
+					"deep": 2,
+					"name": "Methods",
+					"tags": [
+
+					]
+				},
+				"130": {
+					"deep": 3,
+					"name": "Run res://sample/Sample.tscn for an example",
+					"tags": [
+
+					]
+				},
+				"140": {
+					"deep": 2,
+					"name": "Support the project development",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/draw3d/plugin.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "plugin",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/draw_anywhere/plugin.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "plugin",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/draw_anywhere/LICENSE.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/draw_anywhere/README.md": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"2": {
+					"deep": 5,
+					"name": "(Get it from Godot Asset Library - [Asset Library](https://godotengine.org/asset-library/asset/1184))",
+					"tags": [
+
+					]
+				},
+				"5": {
+					"deep": 2,
+					"name": "Draw anywhere in the Godot Editor. Supports multiple pen sizes and colors.",
+					"tags": [
+
+					]
+				},
+				"56": {
+					"deep": 2,
+					"name": "Global shortcuts",
+					"tags": [
+
+					]
+				},
+				"63": {
+					"deep": 2,
+					"name": "Draw mode shortcuts",
+					"tags": [
+
+					]
+				},
+				"84": {
+					"deep": 2,
+					"name": "Support the project development",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		},
+		"res://addons/text_editor/plugin.cfg": {
+			"icon": "",
+			"tint": "",
+			"open": false,
+			"symbols": {
+				"-1": {
+					"deep": 0,
+					"name": "",
+					"tags": [
+
+					]
+				},
+				"0": {
+					"deep": 0,
+					"name": "plugin",
+					"tags": [
+
+					]
+				}
+			},
+			"tags": {
+
+			}
+		}
+	},
+	"div1": -300,
+	"div2": -80,
+	"div3": 100,
+	"div4": 180,
+	"window_size": [
+		1024,
+		600
+	]
+}

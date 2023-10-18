@@ -1,0 +1,88 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Camera",
+"class": "CameraController",
+"language": "GDScript",
+"path": "res://CameraController.gd"
+}, {
+"base": "Node",
+"class": "Context",
+"language": "GDScript",
+"path": "res://addons/DragDrop3D/Draggable.gd"
+}, {
+"base": "Reference",
+"class": "Dataclass",
+"language": "GDScript",
+"path": "res://addons/dataclasses-godot/Dataclass.gd"
+}, {
+"base": "ImmediateGeometry",
+"class": "Draw3D",
+"language": "GDScript",
+"path": "res://addons/draw3d/draw_3d.gd"
+}, {
+"base": "Control",
+"class": "TE_Editor",
+"language": "GDScript",
+"path": "res://addons/text_editor/TE_Editor.gd"
+}, {
+"base": "Resource",
+"class": "TE_ExtensionHelper",
+"language": "GDScript",
+"path": "res://addons/text_editor/ext/TE_ExtensionHelper.gd"
+}, {
+"base": "Reference",
+"class": "TE_StopWords",
+"language": "GDScript",
+"path": "res://addons/text_editor/TE_StopWords.gd"
+}, {
+"base": "Reference",
+"class": "TE_Util",
+"language": "GDScript",
+"path": "res://addons/text_editor/TE_Util.gd"
+}, {
+"base": "Reference",
+"class": "_PropertySorterAlphabetical",
+"language": "GDScript",
+"path": "res://addons/dataclasses-godot/_PropertySorterAlphabetical.gd"
+} ]
+_global_script_class_icons={
+"CameraController": "",
+"Context": "",
+"Dataclass": "res://addons/dataclasses-godot/DataclassIcon.svg",
+"Draw3D": "res://addons/draw3d/CanvasItem.svg",
+"TE_Editor": "",
+"TE_ExtensionHelper": "",
+"TE_StopWords": "",
+"TE_Util": "",
+"_PropertySorterAlphabetical": ""
+}
+
+[application]
+
+config/name="Last to laugh"
+run/main_scene="res://draw_3d_example.tscn"
+config/icon="res://icon.png"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"

@@ -1,0 +1,5 @@
+[gd_scene format=2]
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 0.47958, -0.877498, 0, 0.877498, 0.47958, 0, 0, 0 )
+visible = false

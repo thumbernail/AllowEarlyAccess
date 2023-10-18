@@ -1,0 +1,137 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://addons/draw3d/draw_3d.gd" type="Script" id=2]
+
+[sub_resource type="GDScript" id=7]
+script/source = "tool
+extends Spatial
+
+
+var=(node)	primitives.points(random_vertices(20, Vector3(4, 0, 0)), Color.green)
+	primitives.line_colored(random_colored_vertices())
+
+	# single draw per Draw3D instance. easily transformable
+	$Sphere.sphere(2.0, Color.cyan)
+	$TransformMe.circle_XY()
+	$TransformMe.points([Vector3.ZERO])
+
+
+func _process(delta: float) -> void:
+	var time = OS.get_ticks_msec() * 0.001
+
+	$TransformMe.rotate_x(delta)
+	$TransformMe.translation.x = 9 + cos(time)
+	$Sphere.rotate_y(delta)
+
+	var arcs = $Arcs
+	arcs.clear()
+	arcs.circle(Vector3(0, 0, 0), Basis(Vector3(1, time, 0)), Color.purple)
+	arcs.arc(Vector3(4, 0, 0), Basis(Vector3(0, TAU/6, 0)).scaled(Vector3(2, 2, 2)), TAU/8, TAU/3, false)
+	arcs.arc_normal(Vector3(-4, 0, 0), Vector3(-1, -1, -1).normalized(), TAU/8, TAU/3, 2.0, true)
+	arcs.circle_normal(Vector3(-8, 0, 0), Vector3(0, 0, 1).normalized(), 1.0, Color.pink)
+	arcs.arc_XY(Vector3(8, 0, 0), -TAU/4, TAU/4)
+
+	var shapes = $Shapes
+	shapes.clear()
+	shapes.cube(Vector3(0, 0, 0), Basis(Vector3(0, time, 0)).scaled(Vector3(1, 1.5, 1)), Color.yellow)
+	shapes.cube_up(Vector3(4, 0, 0), Vector3(1, 0.5, 0.5), Color.orangered)
+
+	var plane = $SinglePlane
+	plane.clear()
+	plane.circle(Vector3(-4, 0, 0))
+	plane.circle_XY(Vector3(0, 0, 0), 1.5, Color.blue)
+	plane.circle_XZ(Vector3(4, 0, 0), 1, Color.red)
+
+
+func random_vertices(n: int = 20, offset: Vector3 = Vector3.ZERO) -> Array:
+	var vertices = []
+	for i in n:
+		var vertex = Vector3(rand_range(-1, 1), rand_range(-1, 1), rand_range(-1, 1))
+		vertices.push_back(vertex + offset)
+	return vertices
+
+
+func random_colored_vertices(n: int = 10) -> Array:
+	var vertices = [editor_description]
+	for i in n:
+		var colored_vertex = [editor_description]
+		colored_vertex.resize(2)
+		colored_vertex[0] = Vector3(rand_range(-1, 1), rand_range(-1, 1), rand_range(-1, 1))
+		colored_vertex[0] *= 1.5
+		colored_vertex[1] = $Primitives.random_color()
+		vertices.push_back(colored_vertex)
+	return vertices
+"
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[sub_resource type="SpatialMaterial" id=3]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[sub_resource type="SpatialMaterial" id=4]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[sub_resource type="SpatialMaterial" id=6]
+flags_unshaded = true
+flags_use_point_size = true
+vertex_color_use_as_albedo = true
+params_line_width = 2.0
+params_point_size = 8.0
+
+[node name="Example" type="Spatial"]
+script = SubResource( 7 )
+
+[node name="Sphere" type="ImmediateGeometry" parent="."]
+transform = Transform( -0.287427, 0.809427, 0.503529, 0.943004, 0.215074, 0.201251, 0.0546023, 0.546416, -0.825111, -2.07988, -1.21181, -1 )
+material_override = SubResource( 1 )
+
+[node name="TransformMe" type="ImmediateGeometry" parent="."]
+transform = Transform( 0.999689, 0, 0, 0, 0.713741, -0.682237, 0, 0.682419, 0.713579, 8.01027, 0, 0 )
+material_override = SubResource( 2 )
+script = ExtResource( 2 )
+
+[node name="Arcs" type="ImmediateGeometry" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
+material_override = SubResource( 3 )
+script = ExtResource( 2 )
+
+[node name="Shapes" type="ImmediateGeometry" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
+material_override = SubResource( 4 )
+script = ExtResource( 2 )
+
+[node name="Primitives" type="ImmediateGeometry" parent="."]
+material_override = SubResource( 5 )
+script = ExtResource( 2 )
+
+[node name="SinglePlane" type="ImmediateGeometry" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5 )
+material_override = SubResource( 6 )
+script = ExtResource( 2 )
