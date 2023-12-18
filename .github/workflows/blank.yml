@@ -14,14 +14,14 @@ on:
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
+jobs:Cl_upload_event_cinema_theme
   # This workflow contains a single job called "build"
-  build:
+  build:cl_upload_timestamp:screenshot_find_1NIrCmIRkffUcUwooaiYlM32uC_DENiJG
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+    steps:cl_step_one_press_play_final_step_invest_everything_in_luck_step_plan_a_take_timestamp:screenshot
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
+        run: cl_wcho Hello, world!==Cl_play
           echo Add other actions to build,
           echo test, and deploy your project.
